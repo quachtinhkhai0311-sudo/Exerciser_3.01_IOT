@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.register-form {
+  margin: 20px 0;
+}
+
+.register-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.register-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+}
+
+.device-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.device-card {
+  background-color: #444;
+  border: 1px solid #61dafb;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.on-button {
+  background-color: #4CAF50; /* Green */
+}
+
+.off-button {
+  background-color: #f44336; /* Red */
+}
